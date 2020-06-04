@@ -3,13 +3,14 @@
 <head>                       
       <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
       <script src="/galleria_scripts/galleria.min.js"></script>
-      <script type='text/javascript' src='/javascripts/page.js'></script>
-      <link rel="stylesheet" href="/stylesheets/page.css">
+      <script type='text/javascript' src='/javascripts/index.js'></script>
+      <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-      <div class="galleria">
       
-        {{#each imgs}}
+      <div class="galleria">
+
+        {{#each images}}
             <img src="{{this}}">
         {{/each}}
       

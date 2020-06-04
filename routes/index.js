@@ -7,4 +7,7 @@ let indexController = require("../controllers/index.controller");
 /* GET home page. */
 router.get('/', indexController.renderImage);
 
+/* GET Login prompt*/
+router.get('/login', indexController.login);
+
 module.exports = router;

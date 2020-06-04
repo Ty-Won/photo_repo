@@ -9,4 +9,8 @@ module.exports = {
         DROPBOX_APP_KEY:process.env.DROPBOX_APP_KEY,
         DROPBOX_APP_SECRET:process.env.DROPBOX_APP_SECRET,
         DROPBOX_OAUTH_REDIRECT_URL:"http://localhost:3000/oauthredirect",
+
+        DROPBOX_LIST_FOLDER_PATH:'/2/files/list_folder',
+        DROPBOX_LIST_FOLDER_CONTINUE_PATH:'/2/files/list_folder/continue',
+        DROPBOX_GET_TEMPORARY_LINK_PATH:'/2/files/get_temporary_link',
         }

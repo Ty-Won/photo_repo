@@ -10,4 +10,7 @@ router.get('/', indexController.renderImage);
 /* GET Login prompt*/
 router.get('/login', indexController.login);
 
+/* GET pathredirect redirects after token obatined*/
+router.get('/oauthredirect', indexController.oauthRedirect);
+
 module.exports = router;
